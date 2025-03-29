@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="./feedback.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="../images/logo.jpg" alt="Recipe Book logo">
+                <h1>Feedback</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="./rbh.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="./feedback.html">Feedback</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+                <div class="theme-toggle">
+                    <img id="theme-icon" src="../images/moon.png" alt="Theme Toggle">
+                </div>
+
+                <div class="cta">
+                    <button id="subscribe-btn">Subscribe Now</button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+                <div class="contact-form">
+                    <h3>Feedback Form</h3>
+                    <form method="post">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+
+                        <button id="send" type="send">Send feedback</button>
+                    </form>
+                    <script src="./feedback.js"></script>
+                </div>
+                <div class="return-home-box">
+                    <a href="./rbh.html" class="return-home-link">Home</a>
+                </div>    
+
+            <img src="./icon.png" alt="">
+        </main>
+        <script src="./rbh.js"></script>
+    </body>
+</html>
